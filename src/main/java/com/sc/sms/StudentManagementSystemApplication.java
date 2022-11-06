@@ -20,7 +20,7 @@ public class StudentManagementSystemApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args){
-        Faker faker = new Faker();
+        /*Faker faker = new Faker();
         Student student1 = new Student(faker.name().firstName(),faker.name().lastName(), faker.internet().emailAddress());
         studentRepository.save(student1);
 
@@ -28,6 +28,6 @@ public class StudentManagementSystemApplication implements CommandLineRunner {
         studentRepository.save(student2);
 
         Student student3 = new Student(faker.name().firstName(),faker.name().lastName(), faker.internet().emailAddress());
-        studentRepository.save(student3);
+        studentRepository.save(student3);*/
     }
 }
